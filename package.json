@@ -4,7 +4,7 @@
   "description": "Greek morphology tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha './test/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/jmi11er/greek-morph#readme",
   "dependencies": {
     "expect": "^1.20.2",
-    "lodash": "^4.17.4",
     "mocha": "^3.4.2"
   }
 }
