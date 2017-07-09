@@ -1,4 +1,3 @@
-// import expect from 'expect';
 var expect = require('expect');
 var greekMorph = require('../lib/greek-morph');
 
