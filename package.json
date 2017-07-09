@@ -4,7 +4,8 @@
   "description": "Greek morphology tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha './test/**/*.spec.js'"
+    "test": "mocha './test/**/*.spec.js'",
+		"test:watch": "yarn test -- -w"
   },
   "repository": {
     "type": "git",
