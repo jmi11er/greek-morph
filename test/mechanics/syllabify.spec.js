@@ -17,4 +17,11 @@ describe('getUnits', function() {
 		expect(actual).toEqual(expected);
 	});
 
+	it('should return the correct two syllables for the word λύεις', function() {
+		var actual = Syllabify.getUnits('λυεις');
+
+		var expected = ['λυ', 'εις'];
+		expect(actual).toEqual(expected);
+	});
+
 });
