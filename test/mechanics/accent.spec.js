@@ -11,3 +11,14 @@ describe('removeAccent', function() {
 	});
 
 });
+
+describe('addAccent', function() {
+
+	it('should add an acute accent to the word λυω to form λύω', function() {
+		var actual = Accent.addAccent('λυω', 'λύω');
+
+		var expected = 'λύω';
+		expect(actual).toEqual(expected);
+	});
+
+});
